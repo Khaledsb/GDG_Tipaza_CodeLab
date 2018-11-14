@@ -16,6 +16,13 @@ We will have the file that contains our project
 
 ![2](https://user-images.githubusercontent.com/10439601/48486474-f0696480-e81b-11e8-9a89-61215e12fd4b.png)
 
+
+- erase all the code in the page
+
+
+![3](https://user-images.githubusercontent.com/10439601/48486718-a59c1c80-e81c-11e8-888a-b9af3b1c27d5.png)
+
+
 test can use the [editor on GitHub](https://github.com/Khaledsb/GDG_Tipaza_CodeLab/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
