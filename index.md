@@ -5,6 +5,13 @@ Our application will contain 2 screens.
 1. First screen  : Login Page
 2. ListView 
 
+Let's start , 
+
+- First create a new project " CodeLab".
+
+![1](https://user-images.githubusercontent.com/10439601/48485499-56a0b800-e819-11e8-933b-4a9a064a88ae.png)
+
+
 
 test can use the [editor on GitHub](https://github.com/Khaledsb/GDG_Tipaza_CodeLab/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
