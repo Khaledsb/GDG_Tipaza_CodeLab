@@ -2,10 +2,10 @@
 
 Our application will contain 2 screens.
 
-1. First screen  : Login Page
-2. ListView 
+  1. First screen  : Login Page
+  2. ListView 
 
-Let's start , 
+  Let's start , 
 
 - First create a new project " CodeLab".
 
