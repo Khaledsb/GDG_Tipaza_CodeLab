@@ -37,6 +37,11 @@ We will have the file that contains our project
 
 ```
 
+- in the lib folder we will create a new file for the login page "login.dart"
+
+![4](https://user-images.githubusercontent.com/10439601/48487166-b26d4000-e81d-11e8-82bf-dfa90ce2450d.png)
+
+
 test can use the [editor on GitHub](https://github.com/Khaledsb/GDG_Tipaza_CodeLab/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
