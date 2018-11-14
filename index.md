@@ -12,6 +12,9 @@ Our application will contain 2 screens.
 ![1](https://user-images.githubusercontent.com/10439601/48485499-56a0b800-e819-11e8-933b-4a9a064a88ae.png)
 
 
+We will have the file that contains our project
+
+![2](https://user-images.githubusercontent.com/10439601/48486474-f0696480-e81b-11e8-9a89-61215e12fd4b.png)
 
 test can use the [editor on GitHub](https://github.com/Khaledsb/GDG_Tipaza_CodeLab/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
