@@ -392,4 +392,7 @@ Row newElement(icon, text) {
 
 
 
-[Twitter](https://twitter.com/Khaled_Sebti)
+[Twitter : @Khaled_Sebti](https://twitter.com/Khaled_Sebti)
+[LinkedIn : Khaled Sebti](https://www.linkedin.com/in/khaled-sebti-86a7799b/)
+[Github : khaledsb](https://github.com/Khaledsb)
+[Email : sebti.khaled1@gmail.com]
