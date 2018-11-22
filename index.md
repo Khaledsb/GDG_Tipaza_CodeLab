@@ -105,6 +105,103 @@ befor that we add listView :
         ),
       ),
 ```
+lets start with components :
+
+### Logo
+```markdown
+ 
+    final logo = Image.asset(
+      "images/google.png",
+      height: 90.0,
+    );
+```
+### Email textField 
+
+```markdown
+ 
+    final email = TextFormField(
+   
+      keyboardType: TextInputType.emailAddress,
+      autofocus: true,
+      decoration: InputDecoration(
+          hintText: "Your Email",
+          contentPadding: EdgeInsets.fromLTRB(20.0, 22.0, 20.0, 10.0),
+          border:
+              OutlineInputBorder(borderRadius: BorderRadius.circular(30.0))),
+    );
+```
+
+### Password Textfield 
+
+```markdown
+ 
+   final password = TextFormField(
+      
+      obscureText: true,
+      decoration: InputDecoration(
+          hintText: "Your Password",
+          contentPadding: EdgeInsets.fromLTRB(20.0, 22.0, 20.0, 10.0),
+          border:
+              OutlineInputBorder(borderRadius: BorderRadius.circular(30.0))),
+    );
+```
+
+### Button 
+
+```markdown
+ 
+    final loginButton = Padding(
+      padding: EdgeInsets.symmetric(vertical: 16.0),
+      child: Material(
+        borderRadius: BorderRadius.circular(30.0),
+        shadowColor: Colors.lightBlueAccent.shade100,
+        color: Colors.red[800],
+        elevation: 10.0,
+        child: MaterialButton(
+          minWidth: 200.0,
+          height: 50.0,
+
+          onPressed: () {
+           
+           
+          },
+        
+          child: Text(
+            "Log In",
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+      ),
+    );
+```
+add this components to the  listview :
+
+```markdown
+new ListView(
+          shrinkWrap: true,
+          children: <Widget>[
+            logo,
+             SizedBox(height: 50.0),
+            email,
+            SizedBox(
+              height: 15.0,
+            ),
+            password,
+            SizedBox(
+              height: 15.0,
+            ),
+            loginButton
+            
+            ],
+        ),
+```
+
+Result :
+
+
+![screenshot_1542874293](https://user-images.githubusercontent.com/10439601/48889627-c543ce00-ee36-11e8-8956-444c306e0c0f.png)
+
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
