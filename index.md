@@ -277,7 +277,50 @@ class _SettingsState extends State<Settings> {
 }
   
  ```
+we add listview and appbar :
+
+```markdown
+  return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: Text("Settings"),
+      ),
+      body: new ListView(
+        children: <Widget>[
+
+      ],)
+      ,
+    );
+  
+  ``` 
+ now we add the content to our list :
  
+ 
+ ```markdown
+ 
+  new Row(
+               children: <Widget>[
+                 new Expanded(
+                   flex: 1,
+                   child: new Icon(Icons.wifi),
+                 ),
+                  new Expanded(
+                   flex: 3,
+                   child: new Text("Wifi Settings")
+                 ),
+                  new Expanded(
+                   flex: 1,
+                   child: new Icon(Icons.wifi),
+                 )
+               ],
+             )
+ 
+  ``` 
+ 
+![screenshot_1542876336](https://user-images.githubusercontent.com/10439601/48891392-89f7ce00-ee3b-11e8-850a-84bc2fa89894.png)
+
+
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
