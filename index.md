@@ -319,8 +319,43 @@ we add listview and appbar :
  
 ![screenshot_1542876336](https://user-images.githubusercontent.com/10439601/48891392-89f7ce00-ee3b-11e8-850a-84bc2fa89894.png)
 
+Now we add some elements and organize our code :
 
-
+ ```markdown
+Row newElement(icon, text) {
+  return   new Row(
+               children: <Widget>[
+                 new Expanded(
+                   flex: 1,
+                   child: new Icon(icon),
+                 ),
+                  new Expanded(
+                   flex: 3,
+                   child: new Text(text)
+                 ),
+                  new Expanded(
+                   flex: 1,
+                   child: new Icon(Icons.open_in_new),
+                 )
+               ],
+             );
+}
+  ``` 
+ 
+ ```markdown
+  new ListView(
+        padding: const EdgeInsets.all(20.0),
+        children: <Widget>[
+          newElement(Icons.network_wifi, "Wifi Settings"),
+          newElement(Icons.bluetooth, "Bluetooth Settings"),
+          newElement(Icons.battery_alert, "Battery Settings"),
+          newElement(Icons.signal_cellular_4_bar, "SIM Settings"),
+          newElement(Icons.account_circle, "Account Settings"),
+          newElement(Icons.accessibility, "Accessibility Settings"),
+          newElement(Icons.system_update, "System Settings"),
+      ],)
+   ``` 
+  
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
