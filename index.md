@@ -355,6 +355,31 @@ Row newElement(icon, text) {
           newElement(Icons.system_update, "System Settings"),
       ],)
    ``` 
+  lets add some modifications :
+  
+   ```markdown
+  Padding newElement(icon, text) {
+  return   Padding(
+    padding: const EdgeInsets.all(10.0),
+    child: new Row(
+                 children: <Widget>[
+                   new Expanded(
+                     flex: 1,
+                     child: new Icon(icon),
+                   ),
+                    new Expanded(
+                     flex: 3,
+                     child: new Text(text)
+                   ),
+                    new Expanded(
+                     flex: 1,
+                     child: new Icon(Icons.open_in_new),
+                   )
+                 ],
+               ),
+  );
+}
+  ```  
   
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
