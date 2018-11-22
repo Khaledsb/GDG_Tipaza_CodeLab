@@ -82,6 +82,10 @@ Now we add th Appbar :
     );
   }
 ```
+Result :
+
+
+![screenshot_1542873171](https://user-images.githubusercontent.com/10439601/48888933-83b22380-ee34-11e8-8f01-63b2d150926b.png)
 
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
