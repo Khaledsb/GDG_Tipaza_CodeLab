@@ -202,6 +202,34 @@ Result :
 ![screenshot_1542874293](https://user-images.githubusercontent.com/10439601/48889627-c543ce00-ee36-11e8-8956-444c306e0c0f.png)
 
 
+to retrieve the contents of a field we will create a controller.
+
+```markdown
+    final emailController= TextEditingController();
+    final passwordController= TextEditingController(); 
+```
+
+now lets assign the controllers to the fields :
+
+```markdown
+
+    final email = TextFormField(
+      controller: emailController,
+      //
+      //
+      //
+      //
+    );
+    
+  final password = TextFormField(
+       controller: passwordController,
+       //
+       //
+       //
+    );   
+    
+```
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
