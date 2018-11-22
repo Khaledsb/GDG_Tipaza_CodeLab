@@ -62,6 +62,28 @@ class _LoginState extends State<Login> {
 }
 ```
 
+Now we add th Appbar :
+
+```markdown
+
+ Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blueAccent,
+        title: new Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: <Widget>[
+            new Icon(Icons.account_circle),
+            new Text("login"),
+          ],
+        ),
+      ),
+      
+    );
+  }
+```
+
+
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
