@@ -256,7 +256,28 @@ add Nivagation to the second screen :
           },
  ```
 
+lets creat the new screen  settings.dart:
 
+```markdown
+import 'package:flutter/material.dart';
+
+
+class Settings extends StatefulWidget {
+  @override
+  _SettingsState createState() => _SettingsState();
+}
+
+class _SettingsState extends State<Settings> {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      
+    );
+  }
+}
+  
+ ```
+ 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
