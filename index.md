@@ -230,6 +230,32 @@ now lets assign the controllers to the fields :
     
 ```
 
+now we get the content from the field :
+
+```markdown
+
+ onPressed: () {
+           print(emailController.text);
+           print(passwordController.text);
+           
+          },
+ ```
+add Nivagation to the second screen :
+
+```markdown
+
+ onPressed: () {
+           print(emailController.text);
+           print(passwordController.text);
+           
+           Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => Settings()),
+            );
+           
+          },
+ ```
+
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
